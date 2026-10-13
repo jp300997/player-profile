@@ -729,6 +729,7 @@ function cohortPage(){const ags=[...new Set(Object.values(P).map(p=>p.player.age
  const short=`<div class="card" style="margin-top:14px"><h3>The short version</h3>
   ${verdict(bd[0],`With no bias a quarter would be born January to March. In the pool it is ${pct(q1pool)}; among players who reached a championships or a camp, ${pct(q1top)} (${ratio.toFixed(2)}&times; the pool). The table below says where it bites.`,bd[1])}
   ${verdict(sz[0],`Of players with growth data, early developers are ${eLow}% at club level and ${eTop}% at a championships or camp; late developers ${lLow}% and ${lTop}%.`,sz[1])}
+ </div>`;
  // ---- relative age, closer: by age group and by sex, and the survivor effect
  const ags2=[...new Set(pool.map(p=>p.player.age_group))].sort();
  const q1=arr=>arr.length?arr.filter(p=>bqOf(p)==='1').length/arr.length:null;
