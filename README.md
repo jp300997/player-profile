@@ -8,4 +8,4 @@ no real person is represented. The page says so in its banner.
 The site is the built output only. The pipeline that produces it (ingestion, matching, validation, the model
 and its checks) is not published here.
 
-Built 2026-10-12.
+Built 2026-10-14.
